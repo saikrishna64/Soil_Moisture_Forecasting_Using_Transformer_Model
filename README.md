@@ -164,16 +164,42 @@ Key observations:
 ## Repository Structure
 
 ```
-├── Data/
-├── Models/
-│   ├── Vanilla Transformer
-│   ├── PatchTST
-│   ├── iTransformer
-│   └── Cluster Transformer
-├── Results/
-├── Forecasts/
+├── Cluster_Based_Transformer/
+│   ├──Cluster_based_Transformers_1.ipynb
+│   ├──cluster_evaluation.png
+│   ├──cluster_forecast_10days.png
+│   ├──cluster_selection.png
+│   ├──cluster_training_curves.png
+│   ├──cluster_visualisation.png
+│   └──forecast_14400_cluster_transformer.csv
+├── PatchTST/
+│   ├──best_patchtst_sm_model.pt
+│   ├──forecast_14400_patchtst.xlsx
+│   ├──patchtst_evaluation.png
+│   ├──patchtst_forecast_10days.png
+│   ├──patchtst_training_curve.png
+│   ├──plot1_actual_vs_predicted.png
+│   ├──plot2_horizon_error.png
+│   ├──plot3_r2_mase.png
+│   ├──plot4_residuals.png
+│   └──plot5_scatter.png
+├── Vanilla_Transformer/
+│   ├──best_vanilla_transformer.pt
+│   ├──evaluation_metrics.png
+│   ├──forecast_10days.png
+│   ├──forecast_14400_vanilla_transformer.csv
+│   └──training_curve.png
+├── iTransformers/
+│   ├──best_itransformer.pt
+│   ├──forecast_14400_itransformer.csv
+│   ├──itransformer_evaluation.png
+│   ├──itransformer_forecast_10days.png
+│   └──itransformer_training_curve.png
 ├── Presentation/
-├── README.md
+│   └──itransformer_training_curve.png
+├── Final_Dataset.xlsx
+├── Supervised_Transformer_models.ipynb
+└── README.md
 ```
 
 ---
